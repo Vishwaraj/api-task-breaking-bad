@@ -1,0 +1,76 @@
+.header-content > img {
+    width: 10vw;
+    border-radius: 10px;
+}
+
+.header-content {
+    text-align: center;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.search-area {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-left: 30rem;
+    margin-top: 1rem;
+}
+
+.character-card > img {
+    width: 16vw;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    height: 45vh;
+}
+
+.card-body {
+    margin-left: 8rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    text-align:center;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem #ccc;
+    padding-bottom: 1rem;
+}
+
+.character-card > h4 {
+    margin-top: 1rem;
+}
+
+/* -----------------styles for single character ---------------------*/
+
+.single-character > img {
+    width: 30vw;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+
+.single-character {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 2rem #ccc;
+    border-radius: 1rem;
+    padding-right: 3rem;
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+
+
+.char-info {
+    margin-left: 4rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
